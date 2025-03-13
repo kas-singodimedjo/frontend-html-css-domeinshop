@@ -39,7 +39,7 @@ h1 {
 h2 {
     padding: 25px;
     text-align: center;
-    margin: 10px
+    margin: 30px
 }
 
 /*///////////// 3.1 Header /////////////*/
@@ -132,17 +132,20 @@ main {
 
 /*///////////// 3.3 Support /////////////*/
 
-.support-main {
+.support-section {
     text-align: left;
 }
 
-.support-main img {
+.support-section img {
     width: 100%;
     border-radius: 10px;
-    margin-top: 30px;
 }
 
-.support-main button {
+.support-section p {
+    margin: 10px;
+}
+
+.support-section button {
     background-color: #1C2B32;
     color: #899CA0;
     padding: 20px;
@@ -151,15 +154,19 @@ main {
     margin: 10px 0;
 }
 
-.support-main button:hover {
+.support-section button:hover {
     color: white;
 }
 
 /*///////////// 3.4 Faq /////////////*/
 
-.faq-main {
+.faq-section {
     margin: 30px 0;
     text-align: left;
+}
+
+.faq {
+    margin: 15px;
 }
 
 .faq:hover {
